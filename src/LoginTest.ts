@@ -21,9 +21,9 @@ export class LoginTest extends UITest {
     this.click("#loginButton");
     this.verifyText("#welcomeMsg", "Welcome testUser");
 
-    this.takeScreenshot("ValidLogin");
-    this.markStatus("Passed");
-    this.closeBrowser();
-    this.printSummary();
-  }
-}
+//     this.takeScreenshot("ValidLogin");
+//     this.markStatus("Passed");
+//     this.closeBrowser();
+//     this.printSummary();
+//   }
+// }
